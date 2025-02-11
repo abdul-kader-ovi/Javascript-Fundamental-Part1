@@ -79,3 +79,15 @@ if(dolphinAverageScore>=100 && koalasAverageScore >=100){
 }
 
 //The conditional (Ternary Operator)
+const age=17;
+age>=18 ? console.log("You are old enough to drive a car 🚔") : console.log("Not old enough to drive a car😑");
+
+let capability=age>=18 ? 'can drive': "can't drive";
+console.log(capability);
+
+
+//--------------Coding challenge 4------------------
+let bill = 275;
+let tip=bill>=50 && bill<=300 ? (bill*15)/100 : (bill*20)/100;
+
+console.log(`The bill was ${bill}, the tip was ${tip} and the total payment ${bill+tip}`);
